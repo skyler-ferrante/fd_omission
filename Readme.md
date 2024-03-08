@@ -1,4 +1,4 @@
-# File Descriptor Omission attack
+# File Descriptor Omission Attack
 
 There is nothing special about stdin, stdout, and stderr.
 They are just the file descriptors 0, 1, and 2.
