@@ -25,6 +25,7 @@ FD 3: -1
 Running fd_omit with strace:
 ```
 ...
+fcntl(0, F_GETFD)                       = -1 EBADF (Bad file descriptor)
 fcntl(1, F_GETFD)                       = -1 EBADF (Bad file descriptor)
 fcntl(2, F_GETFD)                       = -1 EBADF (Bad file descriptor)
 fcntl(3, F_GETFD)                       = -1 EBADF (Bad file descriptor)
